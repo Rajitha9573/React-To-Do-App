@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-const TaskInput = ({ onAdd }) => {
+const TaskInput = ({ onAddToDo }) => {
   const [task, setTask] = useState('');
 
 
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onAdd(task);
+    onAddToDo(task);
     setTask('');
   };
 

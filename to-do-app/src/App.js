@@ -19,9 +19,9 @@ function App() {
   return (
     <div className='App'>
       <h1>To-Do App</h1>
-      <TaskInput onAdd={handleAddTask} />
+      <TaskInput onAddToDo={handleAddTask} />
       <TaskList tasks={tasks} onDelete={handleDeleteTask} />
-      
+
     </div>
   );
 }
