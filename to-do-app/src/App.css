@@ -1,0 +1,59 @@
+.App {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.SubmitButton{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  
+}
+
+.TaskInput{
+  padding: 8px;
+  width:250px;
+  border-radius: 6px;
+  font-size: 15px;
+
+}
+/* .TaskInput:hover{
+  border-color: blue;
+  color:white;
+} */
+.button{
+  padding: 8px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.button:hover{
+  background-color: rgb(7, 183, 124);
+  color:white;
+}
+.TaskList{
+  display: flex;
+  flex-direction: column;
+
+}
+.ListElements{
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 80px;
+  font-size: 17px;
+}
+.deleteBtn{
+  padding: 8px 15px;
+  border-radius: 5px;
+  
+  
+}
+.deleteBtn:hover{
+  background-color: red;
+}
+
